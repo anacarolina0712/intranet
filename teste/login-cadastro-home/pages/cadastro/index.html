@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Crie seu Cadastro</title>
+  </head>
+
+  <body>
+    <main class="main-container">
+      <section class="content-subscribe">
+        <div class="body-subscribe">
+          <img src="../../assets/img/SENAI_São_Paulo_logo.png" />
+          <div class="text1-subscribe">
+            <h1>Cadastre-se para fazer parte da nossa intranet</h1>
+          </div>
+          <form class="inputs-subscribe">
+            <input
+              class="input"
+              type="text"
+              name="UserName"
+              placeholder="Nome de usuário"
+              maxlength="15"
+            />
+            <input
+              class="input"
+              type="text"
+              name="Email"
+              placeholder="Email"
+              maxlength="30"
+            />
+            <input
+              class="input"
+              type="password"
+              name="Senha"
+              placeholder="Senha"
+              minlength="10"
+              maxlength="20"
+            />
+            <input
+              class="input"
+              type="password"
+              name="Confirmação da Senha"
+              placeholder="Confirmação da Senha"
+              minlength="10"
+              maxlength="20"
+            />
+            <button class="btn-subscribe" type="submit">Cadastre-se</button>
+          </form>
+
+          <!-- <div class="erro">@TempData.Peek("MensagemNome")</div>
+                <div class="erro">@TempData.Peek("MensagemEmail")</div>
+                <div class="erro">@TempData.Peek("MensagemUserName")</div> -->
+
+          <div class="term-subscribe">
+            <p>
+              Ao se cadastrar, você concorda com nossos
+              <span class="bold-terms">Termos, Politica de Dados</span> e
+              <span class="bold-terms">Politica de Cookies.</span>
+            </p>
+          </div>
+          <div class="connect-subscribe">
+            <p>Tem uma conta? <a href="../login/index.html">Entrar</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-container">
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Unidades</a></li>
+          <li><a href="#">CIESP</a></li>
+          <li><a href="#">FIESP</a></li>
+          <li><a href="#">SESI</a></li>
+          <li><a href="#">SENAI</a></li>
+          <li><a href="#">Ouvidoria</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Ajuda</a></li>
+        </ul>
+      </div>
+      <div class="footer-info">
+        <ul>
+          <li><a href="#">Português (Brasil)</a></li>
+          <li>
+            <a href="#">Copyright 2023 © Todos os direitos reservados.</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

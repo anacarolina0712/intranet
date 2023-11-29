@@ -1,0 +1,86 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Tela do Curso</title>
+</head>
+<body>
+
+  <div class="topo">
+    <ul>
+     <li><a href="">FIESP</a></li>
+     <li><a href="">CIESP</a></li>
+     <li><a href="">SESI</a></li>
+     <li><a href="">SENAI</a></li>
+    </ul>
+   </div>
+   <header>
+     <div class="container">
+       <img class="logo" src="../../img/SENAI_São_Paulo_logo.png" alt="Logo SENAI">
+     </div>
+     <nav>
+       <ul>
+         <li><a href="#">Inicio</a></li>
+         <li><a href="#">Professores</a></li>
+         <li><a href="#">Cursos</a></li>
+         <li><a href="#">O SENAI</a></li>
+         <li><a href="#">Meu Perfil</a></li>
+         <li><a href="#">Contato</a></li>
+         <li><a href="#">Sair</a></li>
+       </ul>
+     </nav>
+   </header>
+
+
+
+  <main>
+    <!-- Lista de Professores -->
+    <div id="professorsList" class="professorList">
+      <!-- Exemplo de Card de Professor -->
+      <div class="professorCard" data-materia="Infrestrura de Redes">
+        <img src="../../img/flavio.jpg" alt="Professor flavio">
+        <h3>Flavio Correa</h3>
+        <button class="sendFileBtn">Enviar Arquivo</button>
+      </div>
+      
+      <div class="professorCard" data-materia="Segurança de Redes">
+        <img src="../../img/ismael.jpg" alt="Professor ismael">
+        <h3>Ismael Prudente</h3>
+        <button class="sendFileBtn">Enviar Arquivo</button>
+      </div>
+      <div class="professorCard" data-materia="Exemplo 3"="Nome do Professor 2">
+        <img src="../../img/everton.jpg" alt="Professor everton">
+        <h3>Everton Rodrigo</h3>
+        <button class="sendFileBtn">Enviar Arquivo</button>
+      </div>
+      <div class="professorCard" data-materia="Exemplo 4"="Nome do Professor 2">
+        <img src="../../img/foto_perfil.jpg" alt="Professor 4">
+        <h3>Juliana da Silva</h3>
+        <button class="sendFileBtn">Enviar Arquivo</button>
+      </div>
+    
+      
+    </div>
+  </main>
+
+  
+  <!-- Modal para escolha do professor e envio de arquivo -->
+  <div id="fileUploadModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Escolha matéria</h2>
+      <select id="professorsDropdown">
+        <!-- Opções de professores serão adicionadas via JavaScript -->
+      </select>
+      <input type="file" id="fileInput" />
+      <button id="submitFileBtn">Enviar Arquivo</button>
+    </div>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 SENAI - Todos os direitos reservados</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

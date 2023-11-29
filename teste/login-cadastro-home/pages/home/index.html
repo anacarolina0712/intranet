@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="header-main-container">
+      <div class="header-container">
+        <div class="logo-container">
+          <img
+            class="logo"
+            src="../../assets/img/logo-senai.png"
+            alt="Logo SENAI"
+          />
+        </div>
+        <nav class="navigation-container">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="../professores/index.html">Professores</a></li>
+            <li><a href="">Cursos</a></li>
+            <li><a href="">O SENAI</a></li>
+            <li><a href="">Meu Perfil</a></li>
+            <li><a href="">Contato</a></li>
+            <li>
+              <a href="../login/index.html">Sair</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="main-container">
+        <div class="main-content">
+            <div class="side-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="expandible" onclick="expandItems()"><a href="#">Institucional <img src="../../assets/icons/Icon-undefinied.png" alt="Expand Icon"></a></li>
+                    <li class="minimized-content" id="teste1"><a href="#">Sobre a unidade</a></li>
+                    <li class="minimized-content" id="teste2"><a href="#">Patrono</a></li>
+                    <li><a href="#">Informações aos alunos</a></li>
+                    <li><a href="#">Faculdade SENAI - Roberto Simonsen</a></li>
+                    <li class="expandible" onclick="expandItems()"><a href="#">Atendimento à empresas <img src="../../assets/icons/Icon-undefinied.png" alt="Expand Icon"></a></li>
+                    <li class="minimized-content" id="teste3"><a href="#">Instituto SENAI de tecnologia</a></li>
+                    <li class="minimized-content" id="teste4"><a href="#">UpLab</a></li>
+                    <li><a href="#">Horário de atendimento</a></li>
+                </ul>
+            </div>
+            
+            <div class="senai-image">
+                <img src="../../assets/img/escola.jpg"
+            alt="Escola Senai Roberto Simonsen"
+          />
+            </div>
+          
+          <div class="info-content">
+            <div class="contact-us">
+                <a href="https://www.facebook.com/senaisaopaulo"><img src="../../assets/icons/facebook-logo.png" alt="Facebook"></a>
+                <a href="https://twitter.com/senaisaopaulo"><img src="../../assets/icons/instagram-logo.png" alt="Facebook"></a>
+                <a href="https://www.youtube.com/user/SenaiSPaulo"><img src="../../assets/icons/linkedin-logo.png" alt="Facebook"></a>
+                <a id="youtube-logo" href="https://br.linkedin.com/school/senaisp/"><img src="../../assets/icons/youtube-logo.png" alt="Facebook"></a>
+            </div>
+            <p>SENAI Brás</p>
+            <h1>Escola Senai "Roberto Simonsen"</h1>
+            <a href="#"><button>Conheça nossos cursos</button></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

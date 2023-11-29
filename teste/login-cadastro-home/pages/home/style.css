@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.header-main-container {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.header-container {
+    display: flex;
+    width: 70vw;
+}
+
+.logo-container{
+    width: 150px;
+    display: flex;
+    align-content: end;
+    margin-bottom: 2px;
+    margin-right: 10px;
+}
+
+.logo-container img{
+    width: 150px;
+}
+
+
+.navigation-container {
+    width: 70%;
+    display: flex;
+    align-items: end;
+    border-bottom: 2px solid red;
+}
+
+.navigation-container ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 5px;
+
+}
+
+.navigation-container li {
+    margin-right: 35px;
+    display: 
+}
+
+.navigation-container a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo{
+    width:15%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    height: 93vh;
+    background-image: url("../../assets/img/home-background.jpg");
+    background-size: cover;
+}
+
+.side-menu {
+    background-color: #e30613;
+    color: #fff;
+    margin-right: 1px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 61vh;
+    font-size: 18px;
+}
+
+.side-menu ul {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.side-menu li {
+    height: 16.66666666666667%;
+}
+
+.side-menu a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+.side-menu li:hover {
+    background-color: #c40414;
+}
+
+.senai-image {
+    margin-right: 25px;
+}
+
+.senai-image img {
+    width: 700px;
+    height: 72vh;
+    border-radius: 5px;
+}
+
+.contact-us {
+    border-top: 0.1px solid #ccc;
+    border-bottom: 0.1px solid #ccc;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+#youtube-logo img{
+    width: 85px;
+    margin: 0;
+}
+
+
+.info-content p {
+    margin: 30px 0;
+    font-size: 25px;
+    color: #212529;
+}
+
+.info-content h1 {
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.info-content button {
+    border: none;
+    color: #fff;
+    background-color: #b41721;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.info-content button:hover {
+    cursor: pointer;
+    background-color: #9c0404;
+}
+.expandible img {
+    width: 20px;
+}
+
+.minimized-content {
+    height: 0;
+    display: none;
+    transition: 1.6s;
+}
